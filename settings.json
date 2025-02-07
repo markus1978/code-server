@@ -1,0 +1,340 @@
+{
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.renderWhitespace": "all",
+  "editor.lineNumbers": "relative",
+  "editor.rulers": [
+    80
+  ],
+  "files.trimTrailingWhitespace": true,
+  "scm.defaultViewMode": "tree",
+  "scm.diffDecorationsGutterPattern": {
+    "added": true
+  },
+  "workbench.editor.enablePreview": true,
+  "debug.toolBarLocation": "docked",
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "vim.statusBarColorControl": false,
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+  },
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "]",
+        "d",
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
+    },
+    {
+      "before": [
+        "ä",
+        "d",
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
+    },
+    {
+      "before": [
+        "[",
+        "d",
+      ],
+      "commands": [
+        "editor.action.marker.prev"
+      ]
+    },
+    {
+      "before": [
+        "ö",
+        "d",
+      ],
+      "commands": [
+        "editor.action.marker.prev"
+      ]
+    },
+    {
+      "before": [
+        "]",
+        "h",
+      ],
+      "commands": [
+        "workbench.action.editor.nextChange"
+      ]
+    },
+    {
+      "before": [
+        "ä",
+        "h",
+      ],
+      "commands": [
+        "workbench.action.editor.nextChange"
+      ]
+    },
+    {
+      "before": [
+        "[",
+        "h",
+      ],
+      "commands": [
+        "workbench.action.editor.previousChange"
+      ]
+    },
+    {
+      "before": [
+        "ö",
+        "h",
+      ],
+      "commands": [
+        "workbench.action.editor.previousChange"
+      ]
+    },
+    {
+      "before": [
+        "m",
+        "m"
+      ],
+      "commands": [
+        "bookmarks.toggle"
+      ]
+    },
+    {
+      "before": [
+        "m",
+        "l"
+      ],
+      "commands": [
+        "bookmarks.listFromAllFiles"
+      ]
+    },
+    {
+      "before": [
+        "m",
+        "X"
+      ],
+      "commands": [
+        "bookmarks.clearFromAllFiles"
+      ]
+    },
+    {
+      "before": [
+        "m",
+        "x"
+      ],
+      "commands": [
+        "bookmarks.clear"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "e"
+      ],
+      "commands": [
+        "workbench.view.explorer"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "%"
+      ],
+      "commands": [
+        {
+          "command": "editor.emmet.action.matchTag"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "s",
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.findInFiles",
+        }
+      ]
+    },
+    {
+      "before": [
+        "x"
+      ],
+      "after": [
+        "\"",
+        "_",
+        "x"
+      ]
+    },
+    {
+      "before": [
+        "X"
+      ],
+      "after": [
+        "\"",
+        "_",
+        "X"
+      ]
+    },
+    {
+      "before": [
+        "<BS>"
+      ],
+      "after": [
+        "\"",
+        "_",
+        "X"
+      ]
+    },
+    {
+      "before": [
+        "<DEL>"
+      ],
+      "after": [
+        "\"",
+        "_",
+        "x"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "p",
+        "d"
+      ],
+      "commands": [
+        "editor.action.peekDefinition"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "h"
+      ],
+      "commands": [
+        "editor.action.showDefinitionPreviewHover"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "i"
+      ],
+      "commands": [
+        "editor.action.goToImplementation"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "p",
+        "i"
+      ],
+      "commands": [
+        "editor.action.peekImplementation"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "q"
+      ],
+      "commands": [
+        "editor.action.quickFix"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "u"
+      ],
+      "commands": [
+        "editor.action.referenceSearch.trigger"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "t"
+      ],
+      "commands": [
+        "editor.action.goToTypeDefinition"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "p",
+        "t"
+      ],
+      "commands": [
+        "editor.action.peekTypeDefinition"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "r",
+      ],
+      "commands": [
+        "editor.action.rename"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "x",
+      ],
+      "commands": [
+        "workbench.action.closeEditorsInGroup"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "X",
+      ],
+      "commands": [
+        "workbench.action.closeOtherEditors"
+      ]
+    }
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "git.confirmSync": false,
+  "terminal.integrated.scrollback": 10000,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.formatOnSave": true,
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1,
+    "asvetliakov.vscode-neovim": 1
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "terminal.integrated.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "python.experiments.enabled": false,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "editor.codeActionsOnSave": {},
+  "git.openRepositoryInParentFolders": "never",
+  "vim.commandLineModeKeyBindings": [],
+  "githubPullRequests.pushBranch": "always",
+  "githubPullRequests.pullBranch": "never"
+}
